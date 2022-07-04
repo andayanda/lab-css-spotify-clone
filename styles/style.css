@@ -38,11 +38,10 @@ White: #FFF
    #logo{
     width: 100px;
   }
-  h1, h2{
+  h1, h2,h4{
     color: white;
    
-  }
- 
+  } 
   .cabecera{
     height: 500px;
     display: flex;
@@ -51,8 +50,45 @@ White: #FFF
     background-image: url("../images/landing.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;}
+    .blanco{
+      display: flex;  
+      flex-wrap: wrap; 
+      justify-content: center;  
+      height: 300px;
+      
+    }
+    .subrayado{
+      text-decoration: underline green;
+    }
+    .cards{
+     /*height: 300px;*/
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center; 
+      align-items: stretch;
+
+    }
+    .card{
+     /* height: 200px;*/
+      max-width: 20%;
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .verde{
+      height: 500px;
+      background-color: green;
+      display: flex;
+      /*flex-direction: column;*/
+      justify-content: center;
+ 
+    align-items: center;
+
+    }
+    .foto{
+      max-width: 20%;
+    }
   /*@media (max-width: 800px) {
     .navigation {
       justify-content: space-around;
@@ -74,4 +110,4 @@ White: #FFF
   
     .navigation:last-child {
       border-bottom: none;
-    }*/}
+    }*/
