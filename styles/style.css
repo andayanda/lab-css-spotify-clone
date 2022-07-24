@@ -58,7 +58,7 @@ White: #FFF
     width: 100px;
   }
   
-  h1, h2{
+  h1, h2, h3{
     text-align: center;
     color: white;
     padding-top: 20px;  
@@ -74,6 +74,89 @@ White: #FFF
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .columna{
+   
+    padding: 20px;
+      }
+  .fondoblanco h3{
+    font-size: 1.5rem;
+    color: #1A1A1A;
+
+    text-decoration: underline solid #00B172 3px;
+  }
+  .cards{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  .card{ 
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .card img{
+    width: 30%;   
+  }
+  h4{
+    text-align: center;
+    color: #00B172;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .fondoverde{
+    display: flex;
+    background: #00B172;
+    color: white;
+    padding: 10px;
+   
+    margin: 20px;
+  }
+  #subrayado{
+    width: max-content;
+    text-align: start;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 3px;
+
+  }
+  .columna{  
+   
+    width: 50%;
+  }
+  .columna h4{
+    text-align: start;
+    color: #fff;
+   
+    
+  }
+  #texto{
+    padding-right: 40px;
+  }
+  .logo-blanco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+  }
+  .logo-blanco img{
+   
+    width: 50%;
+  }
+  .foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+  .foto img{
+    width: 100%;
+  }
     
   /*@media (max-width: 800px) {
     .navigation {
@@ -96,4 +179,4 @@ White: #FFF
   
     .navigation:last-child {
       border-bottom: none;
-    }*/}
+    }*/
